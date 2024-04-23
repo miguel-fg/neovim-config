@@ -16,6 +16,7 @@ require("user.indentline")
 require("user.alpha")
 require("user.project")
 require("user.whichkey")
+require("user.discordpresence")
 
 -- For some reason nvim-tree doesn't like external config file
 --require "user.nv-tree-config"

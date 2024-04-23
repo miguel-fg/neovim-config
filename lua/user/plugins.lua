@@ -120,6 +120,9 @@ return packer.startup(function(use)
   -- Which key
   use "folke/which-key.nvim"
 
+  -- Discord Rich Presence
+  use "andweeb/presence.nvim"
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
