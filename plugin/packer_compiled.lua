@@ -134,6 +134,16 @@ _G.packer_plugins = {
     path = "C:\\Users\\migue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\colorschemes",
     url = "https://github.com/lunarvim/colorschemes"
   },
+  ["dressing.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\migue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dressing.nvim",
+    url = "https://github.com/stevearc/dressing.nvim"
+  },
+  ["flutter-tools.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\migue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\flutter-tools.nvim",
+    url = "https://github.com/akinsho/flutter-tools.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "C:\\Users\\migue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
@@ -185,6 +195,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\migue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-cmp",
     url = "https://github.com/hrsh7th/nvim-cmp"
+  },
+  ["nvim-highlight-colors"] = {
+    loaded = true,
+    path = "C:\\Users\\migue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\nvim-highlight-colors",
+    url = "https://github.com/brenoprata10/nvim-highlight-colors"
   },
   ["nvim-lspconfig"] = {
     loaded = true,

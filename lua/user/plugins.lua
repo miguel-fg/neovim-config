@@ -66,6 +66,15 @@ return packer.startup(function(use)
   use "williamboman/mason-lspconfig.nvim"
   use "jose-elias-alvarez/null-ls.nvim" -- LSP diagnostics and code actions
 
+  -- Dart LSP 
+  use {
+    "akinsho/flutter-tools.nvim",
+    requires = {
+      "nvim-lua/plenary.nvim",
+      "stevearc/dressing.nvim",
+    },
+  }
+
   -- Telescope
   use "nvim-telescope/telescope.nvim"
   use "nvim-telescope/telescope-media-files.nvim" -- Doesn't seem to work, missing dependencies!
@@ -122,6 +131,9 @@ return packer.startup(function(use)
 
   -- Discord Rich Presence
   use "andweeb/presence.nvim"
+
+  -- Color Highlighting
+  use "brenoprata10/nvim-highlight-colors"
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
