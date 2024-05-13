@@ -18,6 +18,7 @@ require("user.project")
 require("user.whichkey")
 require("user.discordpresence")
 require("user.colorhighlight")
+require("user.typescripttools")
 
 -- For some reason nvim-tree doesn't like external config file
 --require "user.nv-tree-config"

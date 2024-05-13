@@ -134,16 +134,6 @@ _G.packer_plugins = {
     path = "C:\\Users\\migue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\colorschemes",
     url = "https://github.com/lunarvim/colorschemes"
   },
-  ["dressing.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\migue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\dressing.nvim",
-    url = "https://github.com/stevearc/dressing.nvim"
-  },
-  ["flutter-tools.nvim"] = {
-    loaded = true,
-    path = "C:\\Users\\migue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\flutter-tools.nvim",
-    url = "https://github.com/akinsho/flutter-tools.nvim"
-  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "C:\\Users\\migue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\friendly-snippets",
@@ -181,10 +171,10 @@ _G.packer_plugins = {
     path = "C:\\Users\\migue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
   },
-  ["null-ls.nvim"] = {
+  ["none-ls.nvim"] = {
     loaded = true,
-    path = "C:\\Users\\migue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\null-ls.nvim",
-    url = "https://github.com/jose-elias-alvarez/null-ls.nvim"
+    path = "C:\\Users\\migue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\none-ls.nvim",
+    url = "https://github.com/nvimtools/none-ls.nvim"
   },
   ["nvim-autopairs"] = {
     loaded = true,
@@ -265,6 +255,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "C:\\Users\\migue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\toggleterm.nvim",
     url = "https://github.com/akinsho/toggleterm.nvim"
+  },
+  ["typescript-tools.nvim"] = {
+    loaded = true,
+    path = "C:\\Users\\migue\\AppData\\Local\\nvim-data\\site\\pack\\packer\\start\\typescript-tools.nvim",
+    url = "https://github.com/pmizio/typescript-tools.nvim"
   },
   ["vim-bbye"] = {
     loaded = true,
